@@ -1,0 +1,25 @@
+{
+    "name": "mo-laralite/laralite",
+    "description": "laralite framwork build in php version (1.0)",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Laralite\\": "src/"
+        },
+        "files": [
+            "src/Helpers/helper.php"
+        ]
+
+    },
+    "authors": [
+        {
+            "name": "mohamedkhaled2000",
+            "email": "mohhaaaak4@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.0"
+    }
+}
